@@ -21,9 +21,7 @@ class Song
   end 
   
   def self.name
-    @name.each do |song|
-      puts "#{song.name}"
-    end 
+    @name
   end 
   
   def self.genres
