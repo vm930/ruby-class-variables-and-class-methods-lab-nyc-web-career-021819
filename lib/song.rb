@@ -8,9 +8,9 @@ class Song
   attr_accessor :artist, :genre
   
   def initialize(name, artist, genre)
-    @name = name,
-    @artist = artist,
-    @genre = genre,
+    @name = name
+    @artist = artist
+    @genre = genre
     @@count +=1
     @@genres << self.genre
     @@artists << self.artist
