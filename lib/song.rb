@@ -20,9 +20,9 @@ class Song
     @@count
   end 
   
-  def self.name
-    @name
-  end 
+  # def self.name
+  #   @name
+  # end 
   
   def self.genres
     @@genres.uniq
